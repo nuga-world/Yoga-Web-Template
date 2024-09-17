@@ -1,0 +1,372 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: max-content;
+    width: 100%;
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: inherit;
+	line-height: inherit;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.section1{
+    background-image: url(./img/yoga-headerNEW.png);
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+.section1 .headerdiv nav .imgdiv .p2 span{
+    font-size: 16px;
+    word-spacing: 5px;
+    color: #fe86d4;
+}
+.section1 .headerdiv nav .imgdiv .p2{
+   font-weight: bold;
+   font-size: 20px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* nav #p3 #phonespan{
+    
+    border-radius: 100%;
+    border: 5px;
+    background-color: aliceblue;
+    background-origin: content-box;   
+} */
+
+.section1 .subheaderdiv p input{
+    width: 20%;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: #fe86d4;
+    color: aliceblue;
+}
+.section2{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.section2 .naturalyoga{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.section2 .naturalyoga h2{
+    font-size: 30px;
+    color: #7b6cd5;
+}
+
+.section2 .chooseyoga{
+    width: 90%;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+
+.section2 .chooseyoga .choose{
+    /* margin-right: 50%; */
+}
+
+.section2 .chooseyoga .yoga{
+    /* margin-left: 70%; */
+}
+
+.section2 .flower h3{
+    font-size: 24px;
+}
+
+
+
+.section3{
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    display: flex;
+}
+
+.section3 .thebestclass h2{
+    color: #7b6cd5;
+    font-size: 30px;
+}
+.section3 .thebestclass{
+    padding: 10px 2px 2px 200px;
+    line-height: 25px;
+}
+.section3 .thebestclass ul{
+    line-height: 35px;
+}
+
+
+.section4{
+    background-image: url(./img/advantages-of-yoga.jpg);
+    background-position: center;
+    width: 100%;
+    height: 1200px;
+}
+.section4 .advantages h2{
+    color: #7b6cd5;
+    font-size: 30px;
+}
+.section4 .advantages{
+    text-align: center;
+}
+.section4 .section4flex{
+    width: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.section4 .section4flex h3 {
+    text-transform: capitalize;
+}
+.section4 .section4flex .advantagesyoga {
+    width: 40%;
+    text-align: center;
+}
+.section4 .section4flex .mindandsoul {
+    margin-top: 30%;
+    margin-left: 35%;
+}
+.section4 .section4flex .yogaenergy {
+    margin-top: 30%;
+    margin-left: 20%;
+}
+.section4 .section4flex .goodhealth {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.section4 .section4flex .renewingmind {
+    margin-top: 20%;
+    margin-left: 35%;
+}
+.section4 .section4flex .relaxation {
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.section4 .section4flex .meditation {
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.section5{
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    height: auto;
+}
+.section5 .ouryoga h2{
+    color: #7b6cd5;
+    font-size: 30px;
+}
+.section5 .ouryoga{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.section5 .section5flex img{
+    border-radius: 100%;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.section5 .section5flex{
+    text-align: center;
+    display: flex;
+    position: relative;
+    width: 90%;
+    padding: 70px;
+}
+.section5 .section5flex .kundalini div p{
+    padding: 20px;
+    padding-top: 0%;
+    font-size: 20px;
+}
+.section5 .section5flex .basicyoga div p{
+    padding: 20px;
+    padding-top: 0%;
+    font-size: 20px;
+}
+.section5 .section5flex .iyengar div p{
+    padding: 20px;
+    padding-top: 0%;
+    font-size: 20px;
+}
+.section5 .section5flex .advancedyoga div p{
+    padding: 20px;
+    padding-top: 0%;
+    font-size: 20px;
+}
+.section5 .section5flex h3{
+    font-size: 24px;
+}
+
+.section6{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.section6 .formtime h2{
+    color: #7b6cd5;
+    font-size: 30px;
+}
+.section6 .formtime{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section6 .makeappointment{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.section6 .makeappointment .form{
+    border-color: black;
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 40%;
+}
+.section6 .makeappointment .appointment{
+    text-align: center;
+}
+.section6 .makeappointment .appointment h2{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #7b6cd5;
+}
+.section6 .makeappointment .form .input input{
+    font-size: 20px;
+}
+.section6 .makeappointment .form .input select{
+    font-size: 50px;
+}
+.section6 .makeappointment .form .input textarea{
+    font-size: 16px;
+    width: 90%;
+}
+.section6 .makeappointment .form .input #bookappointment{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color: #7b6cd5;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.section6 .makeappointment .time{
+    text-align: center;
+    margin-left: 50px;
+    line-height: 20px;
+}
+.section6 .makeappointment .time h3{
+    color: #7b6cd5;
+}
+.section6 .makeappointment .time .weekdays{
+    margin-bottom: 50px;
+}
+
+.section7{
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.section7 .expert{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section7 .expert h2{
+    color: #7b6cd5;
+}
+.section7 .section7flex img{
+    border-radius: 100%;
+    width: 180px;
+    margin-bottom: 5px;
+}
+.section7 .section7flex{
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.section7 .section7flex p{
+    font-style: italic;
+}
+
+.section8{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.section8 .forany h2{
+    color: #7b6cd5;
+    font-size: 30px;
+}
+.section8 .forany{
+    padding-bottom: 20px;
+}
+.section8 .submit p input{
+    width: 20%;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: #7b6cd5;
+    color: aliceblue;
+}
+footer{
+    background-color: #7b6cd5;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    color: white;
+    word-spacing: 5px;
+}
+footer .logo{
+    word-spacing: 10px;
+}
